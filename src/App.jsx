@@ -1,5 +1,4 @@
 import './App.css';
-import Nav from "./Nav";
 import Post from "./Post";
 import Create from "./Create";
 import { Routes, Route } from "react-router-dom";

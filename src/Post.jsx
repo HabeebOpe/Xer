@@ -22,7 +22,7 @@ const Computer = () => {
 
   const messsageItem = messages.map((message) => {
     return(
-      <li id="list">
+      <li id="list" key={message.id}>
             <h4>{message.sender}</h4>
             <div className="text-area">
               <p className="message-text">{message.text}</p>
